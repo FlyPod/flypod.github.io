@@ -27,6 +27,6 @@ section {
 
 @media only screen and (max-width: 767px) {
     #Header img {
-        height: 350px;
+        height: 300px;
     }
 }
