@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f2f4f8;
+    color: rgb(38, 38, 39);
+    font-weight: normal;
+    word-wrap: break-word;
+    font-kerning: normal;
+}
+
+header,
+main,
+section {
+    display: block;
+}
+
+.wrapper img {
+    width: 100%;
+}
+
+#Header img{
+    height: 900px;
+}
+
+@media only screen and (max-width: 767px) {
+    #Header img {
+        height: 350px;
+    }
+}
